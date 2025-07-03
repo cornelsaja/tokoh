@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sosiologi SMA: Max Weber</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the application */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light blue-gray background for a clean look */
+        }
+        .container {
+            max-width: 960px; /* Max width for content to ensure readability */
+        }
+        .card {
+            background-color: #ffffff; /* White background for content cards */
+            border-radius: 1rem; /* Rounded corners for a modern feel */
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+        }
+        .header-bg {
+            background-image: linear-gradient(to right, #4a90e2, #50b3e7); /* Blue gradient for a vibrant header */
+        }
+        .btn-primary {
+            background-image: linear-gradient(to right, #4a90e2, #50b3e7); /* Gradient background for primary buttons */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth transition for hover effects */
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px); /* Slight lift on hover */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /* Enhanced shadow on hover */
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="container mx-auto">
+        <!-- Header Section: Application Title and Subtitle -->
+        <header class="header-bg text-white p-6 md:p-8 rounded-t-xl mb-6 flex flex-col items-center text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-2">Sosiologi SMA</h1>
+            <p class="text-lg sm:text-xl md:text-2xl font-light">Mempelajari Max Weber dan Perannya dalam Sosiologi</p>
+        </header>
+
+        <!-- Main Content Area: Divided into sections for better readability -->
+        <main class="card p-6 md:p-8">
+            <!-- Section: Biografi Max Weber -->
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6 border-b-2 border-blue-400 pb-2">Biografi Max Weber</h2>
+
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                    Max Weber, lahir pada 21 April 1864 di Erfurt, Jerman, adalah seorang tokoh yang sangat berpengaruh dalam bidang sosiologi. Karyanya meletakkan dasar bagi pemikiran sosiologi modern, menjelajahi hubungan antara individu, nilai-nilai sosial, dan struktur masyarakat.
+                </p>
+                <p>
+                    Weber memperkenalkan konsep-konsep kunci seperti "verstehen" (pemahaman interpretatif) dan analisis tindakan sosial, menekankan makna subjektif yang dilekatkan individu pada tindakan mereka.
+                </p>
+                <p>
+                    Dia juga berkontribusi secara signifikan pada sosiologi agama dan ekonomi, menunjukkan bagaimana nilai-nilai agama dapat membentuk etika kerja dan sistem ekonomi. Karya Weber terus dipelajari di institusi pendidikan tinggi, menyoroti dampak abadi yang ia berikan pada bidang tersebut.
+                </p>
+                <div class="flex justify-center my-6">
+                    <!-- Placeholder image for Max Weber's portrait -->
+                    <img src="https://placehold.co/400x250/ADD8E6/000000?text=Max+Weber+Portrait" alt="Potret Max Weber" class="rounded-lg shadow-md w-full max-w-sm">
+                </div>
+            </div>
+
+            <!-- Section: Peran Max Weber dalam Perkembangan Sosiologi -->
+            <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mt-8 mb-6 border-b-2 border-blue-400 pb-2">Peran Max Weber dalam Perkembangan Sosiologi</h2>
+
+            <div class="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                    Peran Max Weber dalam sosiologi sangat fundamental. Ia tidak hanya mengembangkan metodologi baru tetapi juga memperkenalkan kerangka kerja analitis yang mendalam untuk memahami masyarakat.
+                </p>
+                <ul class="list-disc list-inside space-y-2">
+                    <li>
+                        <strong>Konsep Verstehen:</strong> Weber percaya bahwa untuk memahami tindakan sosial, sosiolog harus berusaha memahami makna subjektif yang dilekatkan individu pada tindakan mereka. Ini berbeda dengan pendekatan positivistik yang hanya berfokus pada observasi eksternal.
+                    </li>
+                    <li>
+                        <strong>Tindakan Sosial:</strong> Ia mengklasifikasikan tindakan sosial menjadi beberapa tipe (rasional instrumental, rasional nilai, afektif, dan tradisional) untuk menganalisis motivasi di balik perilaku manusia.
+                    </li>
+                    <li>
+                        <strong>Birokrasi:</strong> Weber memberikan analisis mendalam tentang birokrasi sebagai bentuk organisasi yang rasional dan efisien, meskipun ia juga menyadari potensi "sangkar besi" birokrasi yang dapat membatasi kebebasan individu.
+                    </li>
+                    <li>
+                        <strong>Etika Protestan dan Semangat Kapitalisme:</strong> Salah satu karyanya yang paling terkenal, "The Protestant Ethic and the Spirit of Capitalism," menunjukkan hubungan kausal antara nilai-nilai keagamaan tertentu (khususnya Protestanisme Calvinis) dan munculnya kapitalisme modern.
+                    </li>
+                    <li>
+                        <strong>Tipologi Otoritas:</strong> Weber mengidentifikasi tiga tipe otoritas: tradisional, karismatik, dan rasional-legal, yang membantu dalam memahami bagaimana kekuasaan dilegitimasi dalam masyarakat.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Quiz/Reflection Section: Aligned with Kurikulum Merdeka for deeper learning -->
+            <div class="mt-10 p-6 bg-blue-50 rounded-xl border border-blue-200">
+                <h3 class="text-xl sm:text-2xl font-bold text-blue-800 mb-4">Refleksi dan Pertanyaan</h3>
+                <p class="text-gray-700 mb-4">
+                    Untuk memperdalam pemahaman Anda tentang Max Weber, jawablah pertanyaan berikut:
+                </p>
+                <ol class="list-decimal list-inside space-y-3 text-gray-700">
+                    <li>Apa yang dimaksud dengan konsep "verstehen" menurut Max Weber dan mengapa itu penting dalam sosiologi?</li>
+                    <li>Bagaimana Max Weber menjelaskan hubungan antara etika Protestan dan munculnya kapitalisme?</li>
+                    <li>Sebutkan dan jelaskan salah satu tipe tindakan sosial yang dikemukakan oleh Max Weber.</li>
+                </ol>
+                <div class="mt-6">
+                    <!-- Button to toggle answers for teachers/facilitators -->
+                    <button id="show-answers-btn" class="btn-primary">Tampilkan Jawaban (untuk Guru/Pembimbing)</button>
+                    <div id="answers-container" class="hidden mt-4 p-4 bg-blue-100 rounded-lg border border-blue-300">
+                        <h4 class="font-semibold text-blue-900 mb-2">Kunci Jawaban:</h4>
+                        <ol class="list-decimal list-inside space-y-2 text-gray-800">
+                            <li>
+                                <strong>Verstehen:</strong> Pemahaman interpretatif atau empati, di mana sosiolog berusaha memahami makna subjektif dan motivasi di balik tindakan individu. Penting karena sosiologi tidak hanya mengamati perilaku tetapi juga memahami alasan di baliknya.
+                            </li>
+                            <li>
+                                <strong>Etika Protestan dan Kapitalisme:</strong> Weber berpendapat bahwa nilai-nilai Protestan (khususnya Calvinisme) seperti kerja keras, hemat, disiplin, dan akumulasi kekayaan sebagai tanda anugerah ilahi, secara tidak sengaja mendorong perkembangan semangat kapitalisme.
+                            </li>
+                            <li>
+                                <strong>Tipe Tindakan Sosial (pilih salah satu):</strong>
+                                <ul>
+                                    <li><em>Rasional Instrumental:</em> Tindakan yang didasarkan pada perhitungan efisiensi untuk mencapai tujuan tertentu.</li>
+                                    <li><em>Rasional Nilai:</em> Tindakan yang didasarkan pada keyakinan akan nilai-nilai intrinsik (misalnya, etika, estetika, agama) tanpa mempertimbangkan hasilnya.</li>
+                                    <li><em>Afektif:</em> Tindakan yang didasarkan pada emosi atau perasaan.</li>
+                                    <li><em>Tradisional:</em> Tindakan yang didasarkan pada kebiasaan atau tradisi yang sudah ada.</li>
+                                </ul>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer Section -->
+        <footer class="text-center text-gray-600 mt-8 p-4 border-t border-gray-300">
+            <p>&copy; 2025 Aplikasi Sosiologi SMA. Materi berdasarkan <a href="https://tirto.id/biografi-max-weber-dan-perannya-dalam-perkembangan-sosiologi-haMs" target="_blank" class="text-blue-600 hover:underline">Tirto.id</a></p>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript to toggle the visibility of the answer section
+        document.getElementById('show-answers-btn').addEventListener('click', function() {
+            const answersContainer = document.getElementById('answers-container');
+            answersContainer.classList.toggle('hidden'); // Toggle the 'hidden' class
+            if (answersContainer.classList.contains('hidden')) {
+                this.textContent = 'Tampilkan Jawaban (untuk Guru/Pembimbing)'; // Change button text when hidden
+            } else {
+                this.textContent = 'Sembunyikan Jawaban'; // Change button text when visible
+            }
+        });
+    </script>
+</body>
+</html>
